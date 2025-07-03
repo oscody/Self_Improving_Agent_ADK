@@ -1,0 +1,53 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env/
+
+# Environment and config files
+.env
+.env.*
+*.env
+*.env.*
+
+# macOS system files
+.DS_Store
+
+# VSCode project files
+.vscode/
+
+# PyCharm project files
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.swp
+*~
