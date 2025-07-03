@@ -3,7 +3,15 @@ https://www.marktechpost.com/2025/05/29/a-coding-guide-for-building-a-self-impro
 
 
 
-
 source .venv/bin/activate
+
+
+# to test Self-Improving-Agent.py
+pip install google-generativeai
+
+
+
+
+
 
 

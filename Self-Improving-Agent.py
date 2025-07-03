@@ -6,7 +6,11 @@ import re
 from typing import Dict, List, Any
 from datetime import datetime
 import traceback
-     
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 class SelfImprovingAgent:
     def __init__(self, api_key: str):
@@ -339,7 +343,7 @@ class SelfImprovingAgent:
 def main():
     """Main function to demonstrate the self-improving agent"""
 
-    API_KEY = "Use Your GEMINI KEY Here"
+    API_KEY = GOOGLE_API_KEY
 
     if API_KEY == "Use Your GEMINI KEY Here":
         print("⚠️  Please set your Gemini API key in the API_KEY variable")
