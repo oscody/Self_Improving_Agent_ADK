@@ -1,7 +1,7 @@
 from google.adk.agents import LlmAgent
 from google.adk.agents import SequentialAgent
 
-from .sub_agents.taskAnalyzer import task_analyzer
+from .sub_agents.task_analyzer import task_analyzer
 from .sub_agents.problem_solver import problem_solver
 
 self_improving_agent = SequentialAgent(
