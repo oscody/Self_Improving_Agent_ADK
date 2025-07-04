@@ -3,11 +3,12 @@ from google.adk.agents import SequentialAgent
 
 from .sub_agents.task_analyzer import task_analyzer
 from .sub_agents.problem_solver import problem_solver
+from .sub_agents.solution_evaluator import solution_evaluator
 
 self_improving_agent = SequentialAgent(
     name="self_improving_agent",
     description="The primary research assistant that solves problems and improves itself over time.",
-    sub_agents=[task_analyzer, problem_solver],
+    sub_agents=[task_analyzer, problem_solver, solution_evaluator],
 )
 
 
