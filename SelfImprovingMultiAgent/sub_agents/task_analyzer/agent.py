@@ -19,4 +19,5 @@ task_analyzer = Agent(
     description="Analyze a given task and determine approach",
     instruction=prompt.TASK_ANALYSIS_PROMPT,
     output_schema=TaskAnalysisOutput,
+    output_key="task_analysis"
 )

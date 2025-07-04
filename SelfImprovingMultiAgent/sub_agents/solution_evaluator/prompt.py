@@ -2,7 +2,7 @@
 
 SOLUTION_EVALUATOR_PROMPT = """
 Evaluate this solution on a scale of 0.0 to 1.0:
-
+{solution}
 Rate based on:
 1. Completeness (addresses all aspects)
 2. Correctness (logically sound)

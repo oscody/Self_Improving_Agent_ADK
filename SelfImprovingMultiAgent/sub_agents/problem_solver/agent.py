@@ -8,4 +8,5 @@ problem_solver = Agent(
     name='problem_solver',
     description="Attempt to solve a problem using current capabilities",
     instruction=prompt.PROBLEM_SOLVER_PROMPT,
+    output_key="solution"
 )

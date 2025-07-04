@@ -13,4 +13,6 @@ solution_evaluator = Agent(
     description="Evaluate this solution on a scale of 0.0 to 1.0:",
     instruction=prompt.SOLUTION_EVALUATOR_PROMPT,
     output_schema=SolutionEvaluatorOutput,
+    output_key="quality_score"
+
 )
